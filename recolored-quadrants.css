@@ -1,31 +1,9 @@
-body {
-    display: block; 
-}
-
-#topLeft {
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
-    background-color: white;
-}
-
-#topRight {
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
-    background-color: white;
-}
-
-#bottomLeft {
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
-    background-color: white;
-}
-
-#bottomRight {
-    height: 100px;
-    width: 100px;
-    border: 2px solid black;
-    background-color: white;
+#topleft,
+#topright,
+#bottomleft,
+#bottomright {
+    height: 350px;
+    width: 49%;
+    border: 2px solid;
+    float: left;
 }
